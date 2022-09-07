@@ -14,13 +14,11 @@ html {
 body {
   font-family: 'Press Start 2P', sans-serif;
   color: #eee;
-  background: url(bg2.jpg);
- 
+  background: url(image/bg2.jpg);
   background-position: center;
   background-repeat: no-repeat;
    background-size: cover; 
   background-attachment: fixed;
-  
   
   /* background-color: rgb(16, 73, 73); */
   /* background-color: #60b347; */

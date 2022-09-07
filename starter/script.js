@@ -22,7 +22,7 @@ function myFunction() {
     document.querySelector('.message').textContent = ' Correct Number!';
     document.querySelector('.number').textContent = secretNumber;
     document.querySelector('body').style.backgroundImage =
-      "url('background.jpg')";
+      "url('image/background.jpg')";
     document.querySelector('.txt').textContent = 'Congratulation!!';
     document.querySelector('.number').style.width = '50rem';
 
@@ -78,7 +78,7 @@ document.querySelector('.again').addEventListener('click', function () {
   document.querySelector('.score').textContent = score;
   document.querySelector('.number').textContent = '?';
   document.querySelector('.guess').value = '';
-  document.querySelector('body').style.backgroundImage = "url('bg2.jpg')";
+  document.querySelector('body').style.backgroundImage = "url('image/bg2.jpg')";
   document.querySelector('.number').style.width = '30rem';
   document.querySelector('.left').style.display = 'inline-block';
   document.querySelector('.label-score').style.display = 'inline-block';
