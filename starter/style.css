@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Press Start 2P', sans-serif;
+  color: #eee;
+  background: url(bg2.jpg);
+ 
+  background-position: center;
+  background-repeat: no-repeat;
+   background-size: cover; 
+  background-attachment: fixed;
+  
+  
+  /* background-color: rgb(16, 73, 73); */
+  /* background-color: #60b347; */
+}
+
+/* LAYOUT */
+header {
+  position: relative;
+  height: 30vh;
+  border-bottom: 7px solid rgb(8, 12, 27);
+}
+
+main {
+  height: 70vh;
+  color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.left {
+   width: 52rem;
+   text-align: center;
+   background-color: rgb(8, 12, 27);
+   border: 5px solid rgb(175, 178, 179);
+   border-radius:10px;
+   padding: 3rem;
+   -webkit-border-radius:10px;
+   -moz-border-radius:10px;
+   -ms-border-radius:10px;
+   -o-border-radius:10px;
+}
+
+.right {
+  width: 52rem;
+  font-size: 2rem;
+  background-color: rgb(8, 12, 27);
+  text-align: center;
+  padding: 4rem;
+  border: 5px solid rgb(175, 178, 179);
+   border-radius:10px;
+}
+
+/* ELEMENTS STYLE */
+.txt {
+  font-size: 4rem;
+  color: white;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.number {
+   background-color: rgb(8, 12, 27);
+  color: rgb(255, 254, 254);
+  font-size: 6rem;
+  width: 30rem;
+  padding: 3rem 0rem;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  border: 5px solid rgb(175, 178, 179);
+   border-radius:10px;
+}
+
+.between {
+  font-size: 1.5rem;
+  color:white;
+  position: absolute;
+  bottom: 10rem;
+}
+
+.again {
+  position: absolute;
+  bottom: 3rem;
+  background-color: black;
+  
+}
+
+.guess {
+  border:none;
+  background-color: rgb(24, 24, 24);
+  font-family: inherit;
+  color: inherit;
+  outline: none;
+  font-size: 5rem;
+  padding: 2.5rem;
+  width: 25rem;
+  margin-left: 100px;
+  text-align: center;
+  display: block;
+  margin-bottom: 3rem;
+}
+
+.btn1 {
+  border: none;
+  background-color:whitesmoke;
+  color: #222;
+  font-size: 2rem;
+  border-radius: 10px;
+  font-family: inherit;
+  padding: 2rem 3rem;
+  cursor: pointer;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.btn1:hover {
+  background-color: teal;
+  color: white;
+}
+
+.btn {
+  border: none;
+  background-color:teal;
+  color:white;
+  font-size: 2rem;
+  font-family: inherit;
+  padding: 2rem 3rem;
+  cursor: pointer;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.btn:hover {
+  background-color: rgb(143, 52, 52);
+}
+
+.message {
+  margin-bottom: 8rem;
+  height: 3rem;
+}
+
+.label-score {
+  margin-bottom: 2rem;
+}
